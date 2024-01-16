@@ -1,17 +1,15 @@
 import Navbar from "../components/NavBar";
-// import Providers from "@/components/Providers";
-import { cn } from "@/lib/utils";
+import Providers from "@/components/Providers";
+import { cn, constructMetadata } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Toaster } from "sonner";
 import "./globals.css";
-import Providers from "@/components/Providers";
 import Footer from "@/components/Footer";
-// import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata = constructMetadata();
+export const metadata = constructMetadata();
 
 export default function RootLayout({
   children,

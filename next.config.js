@@ -8,7 +8,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "digital-market-5ej8.vercel.app/",
+        hostname: "digital-market-5ej8.vercel.app",
       },
     ],
   },

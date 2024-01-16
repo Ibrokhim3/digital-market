@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@ibrokhim',
     },
     icons,
-    metadataBase: new URL('https://digital-market-5ej8.vercel.app/'),
+    metadataBase: new URL('https://digital-market-5ej8.vercel.app'),
     ...(noIndex && {
       robots: {
         index: false,
